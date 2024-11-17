@@ -1,0 +1,10 @@
+li a {
+    color: green;
+}
+
+body {
+    background: white url("images/back_logo.jpeg");
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+}
+

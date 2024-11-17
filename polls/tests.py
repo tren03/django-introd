@@ -29,6 +29,11 @@ The test database is created empty, except for:
     Optional fixtures you load for testing.
 
 After the tests complete, Django deletes the test database.
+
+As long as your tests are sensibly arranged, they won’t become unmanageable. Good rules-of-thumb include having:
+    a separate TestClass for each model or view
+    a separate test method for each set of conditions you want to test
+    test method names that describe their function
 """
 
 
