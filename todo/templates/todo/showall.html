@@ -1,0 +1,7 @@
+<h1>List of all users</h1>
+{% for user in users %}
+    <h2> {{user.user_id}} | {{user.username}} | {{user.email}} </h2>
+<br>
+ {% empty %}
+        <p>No users found.</p>
+{% endfor %}
